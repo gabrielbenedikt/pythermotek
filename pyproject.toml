@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=59.0", "pyserial"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "thermotek"
+version = "0.1.0"
+authors = [
+  { name="Peter Schiansky", email="peter.schiansky@univie.ac.at" },
+]
+description = "Interface to Thermotek Chillers"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/gabrielbenedikt/pythermotek"
+"Bug Tracker" = "https://github.com/gabrielbenedikt/pythermotek/issues"
